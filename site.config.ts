@@ -4,13 +4,15 @@ import locale from './site.locale.json'
 export default siteConfig({
   notionDbIds: [
     '251f2d475c3181c3a9f2ff6f477bbf25',
-    '21df2d475c31812dae49d1b1735e02b4'
+    '21df2d475c31812dae49d1b1735e02b4',
+    '27f600ddb8ea819bbef4c4999dbed470',
+    '24c600ddb8ea80cf829dcfd3fd8200c0'
   ],
 
   // basic site info (required)
-  name: 'Noxionite',
-  domain: 'noxionite.vercel.app',
-  author: 'Jaewan Shin',
+  name: 'Knowtionite',
+  domain: 'knowtion-teal.vercel.app/',
+  author: 'Duy Khiem',
 
   // open graph metadata (optional)
   description: 'Your Notion pages, reborn as a stunning blog',
@@ -144,7 +146,7 @@ export default siteConfig({
   // author metadata (optional)
   authors: [
     {
-      name: 'Jaewan Shin',                       // Author name
+      name: 'Duy Khiem',                       // Author name
       avatar_dir: '/authors/Jzahnny.jpeg',   // Author avatar image path in public folder (28px x 28px recommended)
       home_url: 'https://jzahnny.vercel.app/',   // Author home URL
     }
@@ -152,9 +154,9 @@ export default siteConfig({
 
   // social links, the order is preserved.
   socials: {
-    github: 'alemem64',  // optional github username
+    github: 'the-khiem7',  // optional github username
     linkedin: 'alemem64', // optional linkedin username
-    youtube: 'channel/UCV7iVbVip33wD_rsiQLSubg?si=Tf0bKAPvtDY_J833', // optional youtube channel id eg. channel/UCXXXXXXXXXXXXXXXXXXXXXX
+    // youtube: 'channel/UCV7iVbVip33wD_rsiQLSubg?si=Tf0bKAPvtDY_J833', // optional youtube channel id eg. channel/UCXXXXXXXXXXXXXXXXXXXXXX
     instagram: 'alemem64', // optional instagram username
     // tiktok: '#', // optional tiktok username
     // threads: '#', // optional threads username
