@@ -1,4 +1,4 @@
 {
-  "localeList": ["en", "vi", "ko"],
-  "defaultLocale": "en"
+  "localeList": ["en", "vi"],
+  "defaultLocale": "vi"
 }

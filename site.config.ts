@@ -3,8 +3,6 @@ import locale from './site.locale.json'
 
 export default siteConfig({
   notionDbIds: [
-    '251f2d475c3181c3a9f2ff6f477bbf25',
-    '21df2d475c31812dae49d1b1735e02b4',
     '27f600ddb8ea819bbef4c4999dbed470',
     '24c600ddb8ea80cf829dcfd3fd8200c0'
   ],
@@ -15,7 +13,7 @@ export default siteConfig({
   author: 'Duy Khiem',
 
   // open graph metadata (optional)
-  description: 'Your Notion pages, reborn as a stunning blog',
+  description: 'Where your notes evolve into a knowledge engine',
 
   // DNS record for domain verification (optional)
   // Replace with your actual Google Search Console verification code
@@ -147,20 +145,20 @@ export default siteConfig({
   authors: [
     {
       name: 'Duy Khiem',                       // Author name
-      avatar_dir: '/authors/Jzahnny.jpeg',   // Author avatar image path in public folder (28px x 28px recommended)
-      home_url: 'https://jzahnny.vercel.app/',   // Author home URL
+      avatar_dir: '/authors/duykhiem.jpg',   // Author avatar image path in public folder (28px x 28px recommended)
+      home_url: 'https://duykhiem.vercel.app/',   // Author home URL
     }
   ],
 
   // social links, the order is preserved.
   socials: {
     github: 'the-khiem7',  // optional github username
-    linkedin: 'alemem64', // optional linkedin username
+    linkedin: 'the-khiem7', // optional linkedin username
     // youtube: 'channel/UCV7iVbVip33wD_rsiQLSubg?si=Tf0bKAPvtDY_J833', // optional youtube channel id eg. channel/UCXXXXXXXXXXXXXXXXXXXXXX
-    instagram: 'alemem64', // optional instagram username
+    // instagram: 'the-khiem7', // optional instagram username
     // tiktok: '#', // optional tiktok username
     // threads: '#', // optional threads username
-    // facebook: '#',  // optional facebook profile id on profile page eg. 1000XXXXXXXXXXX
+    facebook: 'khiemnguyen120216',  // optional facebook profile id on profile page eg. 1000XXXXXXXXXXX
     // twitter: '#', // optional twitter username
     // mastodon: '#', // optional mastodon profile URL, provides link verification
     // newsletter: '#' // optional personal newsletter URL
